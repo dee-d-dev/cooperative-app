@@ -196,6 +196,32 @@ a {
 }
 
 
+.form-input svg {
+   position: absolute;
+   top: 15px;
+   left: 20px;
+}
+
+.user-id {
+    position: relative;
+    
+}
+
+.user-mail {
+    position: relative;
+    
+}
+
+.lock {
+    position: relative;
+    
+}
+
+.confirm-lock {
+    position: relative;
+    
+}
+
 .form-input input {
     background: #FFFFFF;
     border: 1px solid rgba(204, 204, 204, 0.8);
@@ -205,7 +231,7 @@ a {
     padding-left: 60px;
     padding-right: 40px;
     font-family: krub-semi;
-    position: relative;
+    
 }
 
 .form-input .icon {
@@ -213,6 +239,7 @@ a {
     top: 38px;
     left: 20px;
     z-index: 2;
+    width: 20px;
 }
 
 .form-input .icon-2 {

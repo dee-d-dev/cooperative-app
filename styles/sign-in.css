@@ -108,6 +108,8 @@
 }
 
 
+
+
 .form-input input {
     background: #FFFFFF;
     border: 1px solid rgba(204, 204, 204, 0.8);
@@ -117,12 +119,19 @@
     padding-left: 60px;
     padding-right: 60px;
     font-family: krub-semi;
+   
 }
 
-.form-input .icon {
+/* .form-input .icon {
     position: relative;
     top: 35px;
     left: 20px;
+    display: flex;
+    width: 0;
+} */
+
+.form svg {
+    transform: translate(40px,5px);
 }
 
 .form-input-2 input {
