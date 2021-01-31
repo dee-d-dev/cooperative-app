@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+@font-face {
+    font-family: krub-bold;
+    src: url(../Krub/Krub-Bold.ttf);
+}
+
+@font-face{
+    font-family: krub-light;
+    src: url(../Krub/Krub-Light.ttf);
+}
+
+@font-face {
+    font-family:krub-semi;
+    src: url(../Krub/Krub-SemiBold.ttf);
+}
+
+.container{
+    width: 1349px;
+    height: 662px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.left-side {
+    background-color: #3d3780;
+    height: 762px;
+
+}
+
+
+.logo {
+    color: #3d3780;
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 50px;
+    top: 53px;
+    font-family: krub-bold;
+}
+
+.greetings {
+    position: absolute;
+    width: 250px;
+    height: 153px;
+    left: 150px;
+    top: 260px;
+}
+
+.greetings p{
+    font-weight: 900;
+    font-family: krub-semi;
+    font-size: 30px;
+
+    color: #FFFFFF;
+
+}
+
+
+.instruction{
+    position: absolute;
+    width: 250px;
+    height: 53px;
+    left: 130px;
+    top: 370px;
+}
+
+.instruction p {
+    font-style: normal;
+    font-weight: normal;
+    font-family: krub-light;
+    font-size: 15px;
+    line-height: 30px;
+    word-spacing: 4px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.sign-in {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 160px;
+    top: 500px;
+
+    background: transparent;
+    border: 2px solid #00D977;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: krub-semi;
+    box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.247);
+}
+
+.sign-in p {
+    color: #ffffff;
+    font-family: krub-semi;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sign-in:hover {
+    top: 498px;
+    transition: .6s all ease-in-out;
+
+}
+
+.sign-in:active {
+    top: 502px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Right Side */
+
+.right-side  {
+    background-color: #f0f0f0;
+    height: 762;
+}
+
+.page-title {
+    position: absolute;
+    width: 350px;
+    height: 33px;
+    left: 750px;
+    top: 109px;
+
+}
+
+.page-title p {
+    font-family: krub-bold;
+    font-size: 35px;
+    font-weight: 900;
+    color: #3d3780;
+    
+}
+
+.navs {
+    display: grid;
+    grid-template-columns: repeat(3, 45px);
+
+    position: absolute;
+    width: 160px;
+    height: 29.65px;
+    left: 830px;
+    top: 190px;
+    text-align: center;
+    grid-column-gap: 8px;
+}
+
+.nav {
+    border: 1px solid #539dbf;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 10%;
+
+}
+
+.page-text {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 810px;
+    top: 255px;
+}
+
+.page-text p {
+    color: #3d3780;
+    font-family: krub-bold;
+    font-weight: 900;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    grid-row-gap: 20px;
+    position: absolute;
+    left: 700px;
+    top: 280px;
+}
+
+
+.form-input input {
+    background: #FFFFFF;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    width: 430px;
+    height: 50px;
+    padding: 5px 0px;
+    padding-left: 60px;
+    padding-right: 40px;
+    font-family: krub-semi;
+    position: relative;
+}
+
+.form-input .icon {
+    position: relative;
+    top: 38px;
+    left: 20px;
+    z-index: 2;
+}
+
+.form-input .icon-2 {
+    position: relative;
+    top: 38px;
+    left: 20px;
+    z-index: 2;
+}
+
+.form-input .icon-3 {
+    position: relative;
+    top: -38px;
+    left: 400px;
+    opacity: .3;
+    width: 20px;
+}
+
+.form-input input::placeholder{
+    color: #cccccc;
+    font-family: krub-light;
+    font-weight: 900;
+}
+
+.terms {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.terms p {
+    color: #3d3780;
+    font-family: krub-semi;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.terms p span {
+    color: #00d977;
+    font-family: krub-semi;
+}
+
+.sign-up {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 115px;
+    top: 380px;
+
+    background: #00D977;
+    border: 2px solid #00D977;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.377);
+}
+
+.sign-up p {
+    color: #ffffff;
+    font-family: krub-semi;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.sign-up:hover {
+    top: 378px
+}
+
+.sign-up:active {
+    top: 380px;
+}
